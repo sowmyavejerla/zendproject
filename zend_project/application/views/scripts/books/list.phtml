@@ -1,0 +1,12 @@
+<br /><br />
+<div id="view-content">
+	<p>View script for controller <b>Books</b> and script/action name <b>list</b></p>
+</div>
+<?php
+//print_r($this);
+foreach ($this->albums as $key=>$value){
+    echo $value->name,"----".$value->author;
+}
+
+
+?>
